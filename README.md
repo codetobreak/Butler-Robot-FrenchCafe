@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-The Butler Robot project is designed to automate food delivery tasks within a restaurant environment. This autonomous robot efficiently navigates between the kitchen, dining tables, and its designated home position. It is equipped to handle various scenarios, such as order confirmations, multiple deliveries, and cancellations, ensuring a seamless and efficient operation.
+The Butler Robot project is designed to automate food delivery tasks within a restaurant environment. This autonomous robot efficiently navigates between the kitchen, dining tables, and its  designated home position. It is equipped to handle various scenarios, such as order confirmations, multiple deliveries, and cancellations, ensuring a seamless and efficient operation.
 
 ## Key Features
 
 - **Autonomous Navigation:** Efficient movement between predefined locations including the kitchen, tables, and the home position.
 - **Order Confirmation Mechanism:** Robust handling of order confirmations with built-in timeout protocols.
-- **Cancellation Management:** Effective handling of order cancellations during different phases of delivery.
+- **Cancellation Management :** Effective handling of order cancellations during different phases of delivery.
 - **Multi-Order Handling:** Optimized execution of multiple delivery tasks in a single trip.
 - **Error and Timeout Handling:** Safeguards against task failures and idle conditions.
 
@@ -57,7 +57,7 @@ The Butler Robot project is designed to automate food delivery tasks within a re
 
 ## Configuration Instructions
 
-1. **Define Location Coordinates:** Configure the coordinates for the home position, kitchen, and tables in a YAML configuration file (e.g., `locations.yaml`).
+1. **Define Location Coordinates :** Configure the coordinates for the home position, kitchen, and tables in a YAML configuration file (e.g., `locations.yaml`).
    ```yaml
    home: [0.0, 0.0]
    kitchen: [5.0, 5.0]
@@ -121,7 +121,7 @@ The Butler Robot is designed to handle a variety of scenarios:
 3. **Timeout Handling:** Return to the home position if no confirmation is received within the specified time limit.
 4. **Cancellation Handling:** Ensure the robot safely returns to the kitchen and then home if a task is canceled.
 5. **Multi-Order Management:** Deliver orders to multiple tables in a single trip for efficient operation.
-6. **Conditional Delivery:** Skip delivery to certain tables based on confirmation or cancellation conditions.
+6. **Conditional Delivery :** Skip delivery to certain tables based on confirmation or cancellation conditions.
 
 ## Testing and Validation
 
